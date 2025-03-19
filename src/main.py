@@ -1,7 +1,7 @@
-from textnode import TextNode
+from textnode import TextNode, TextType
 
 def main():
-    testNode = TextNode("testerson", "header1", "https://place.where")
+    testNode = TextNode("testerson", TextType.BOLD, "https://place.where")
     
     print(testNode)
 
